@@ -1,0 +1,23 @@
+{
+  "name": "ls-js101-js119-small-problems",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KO1122/ls-js101-js119-small-problems.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KO1122/ls-js101-js119-small-problems/issues"
+  },
+  "homepage": "https://github.com/KO1122/ls-js101-js119-small-problems#readme",
+  "description": "",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
+}
