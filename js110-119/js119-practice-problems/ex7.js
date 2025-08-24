@@ -1,0 +1,22 @@
+const p = console.log;
+
+function pairs(arr) {
+  let obj = {};
+  for (let num of arr) {
+    obj[num] = obj[num] || 0;
+    obj[num]++;
+  }
+  let cnt = 0;
+  for (let num in obj) {
+    cnt += Math.floor(obj[num] / 2);
+  }
+  return cnt;
+}
+
+p(pairs([3, 1, 4, 5, 9, 2, 6, 5, 3, 5, 8, 9, 7]) === 3);
+p(pairs([2, 7, 1, 8, 2, 8, 1, 8, 2, 8, 4]) === 4);
+p(pairs([]) === 0);
+p(pairs([23]) === 0);
+p(pairs([997, 997]) === 1);
+p(pairs([32, 32, 32]) === 1);
+p(pairs([7, 7, 7, 7, 7, 7, 7]) === 3);
