@@ -18,6 +18,7 @@
   "homepage": "https://github.com/KO1122/ls-js120-129#readme",
   "description": "",
   "dependencies": {
-    "readline-sync": "^1.4.10"
+    "readline-sync": "^1.4.10",
+    "shuffle-array": "^1.0.1"
   }
 }
